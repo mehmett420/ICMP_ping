@@ -28,7 +28,7 @@ def icmp():
 
 s = socket.socket(socket.AF_INET, socket.SOCK_RAW,1)
 
-ip=('192.168.56.101', 3000)
+ip=('IP ADDRESS', 3000)
 s.connect((ip))
 
 print("Ready.")
